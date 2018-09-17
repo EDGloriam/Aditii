@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My page</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- У каждой ОС есть своя кодировка(символ - в байт код) символов. 
+    LINUX хранит файлы в UTF-8-->
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap-4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="bootstrap-4.1.1/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="bootstrap-4.1.1/js/bootstrap.min.js" ></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top container">
+            <div class="row">
+                <div class="logo col-md-3 col-sm-2">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="search"><input type="text" /><i class="fa fa-search" aria-hidden="true"></i></div>
+                </div>
+
+                <div class="cart col-md-3 col-sm-2">
+                    <img src="img/cart.png" alt="cart">
+                    <span class="price">$300</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu bg-aqua">
+            <div class="container">          
+                <nav class="navbar navbar-expand-lg">
+                  <a class="navbar-brand d-lg-none" href="#">Menu</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Home </a>
+                      </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">HandBAgs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Walllet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Vintag</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a hres="#" class="nav-link">Contact us</a>
+                        </li>
+                    </ul>  
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    
+    <div class="bg-aqua">
+        <div id="content-top" class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5 col-12 slider-left">
+                    <img src="img/t-shirt.png" alt="t-shirt" class="img-fluid">
+                </div>            
+                <div class="col-md-5 col-sm-5 col-12 slider-right">
+                    <h2>cowhide <br>standart crew</h2>
+                    <p class="description">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit.</p>
+                    <button type="button" class="btn btn-outline-primary">SHOP NOW</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="carousel-wrapper">
+        
+
+        <div class="container">
+            <div id="carousel" class="row d-flex  justify-content-center">
+                <div class="col-md-1 row-for-arrow">
+                  <div class="arrow left"></div>
+                </div>
+                <div class="top-item col col-12 col-sm-6 col-md-4 col-md-3 col-lg-3">
+                    <div class="category-img"><img src="img/category/shoes.png" alt="" class="img-fluid"></div>
+                    <div class="category-desc">
+                        <p>Branded Shoes</p>
+                        <button class="btn-shop btn-aditii" type="button">Shop</button>
+                    </div>
+                </div>
+                <div class="top-item col col-12 col-sm-6 col-md-4 col-md-3 col-lg-3">
+                    <div class="category-img"><img src="img/category/t-shirts.png" alt="" class="img-fluid"></div>
+                    <div class="category-desc">
+                        <p>Branded Shoes</p>
+                        <button class="btn-shop btn-aditii" type="button">Shop</button>
+                    </div>
+                </div>
+                <div class="top-item col col-12 col-sm-6 col-md-4 col-md-3 col-lg-3">
+                    <div class="category-img"><img src="img/category/pants.png" alt="" class="img-fluid"></div>
+                    <div class="category-desc">
+                        <p>Branded Shoes</p>
+                        <button class="btn-shop btn-aditii" type="button">Shop</button>
+                    </div>
+                </div>
+
+                <div class="col-md-1 row-for-arrow">
+                  <div class="arrow right"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+
+
+    <div class="products">
+        <div class="bg-aqua">
+            <div class="container">
+                <h2>FEATURED PRODUCTS</h2>
+            </div>  
+        </div>
+        <div class="products-content container">
+           <div class="row d-flex justify-content-md-between justify-content-center">
+                <div class="item col-lg-3 col-md-3 col-sm-12 col-11">
+                    <div class="image">
+                        <img src="img/products/1.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="category">Branded Shoe</p>
+                    <div class="flex-group d-flex">
+                        <p class="price">$300</p>
+                        <button class="btn btn-aditii btn-buy">Buy Now</button>
+                    </div>
+                    
+                </div>
+                <div class="item col-lg-3 col-md-3 col-sm-12 col-11">
+                    <div class="image">
+                        <img src="img/products/2.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="category">Branded Tees</p>
+                    <div class="flex-group d-flex">
+                        <p class="price">$300</p>
+                        <button class="btn btn-aditii btn-buy">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="item col-lg-3 col-md-3 col-sm-12 col-11">
+                    <div class="image">
+                        <img src="img/products/3.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="category">Branded Shoe</p>
+                   <div class="flex-group d-flex">
+                        <p class="price">$300</p>
+                        <button class="btn btn-aditii btn-buy">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="item col-lg-3 col-md-3 col-sm-12 col-11">
+                    <div class="image">
+                        <img src="img/products/4.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="category">Branded Shoe</p>
+                    <div class="flex-group d-flex">
+                        <p class="price">$300</p>
+                        <button class="btn btn-aditii btn-buy">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="item col-lg-3 col-md-3 col-sm-12 col-11">
+                    <div class="image">
+                        <img src="img/products/5.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="category">EMS Women Bag</p>
+                   <div class="flex-group d-flex">
+                        <p class="price">$300</p>
+                        <button class="btn btn-aditii btn-buy">Buy Now</button>
+                    </div>
+
+                </div>
+                <div class="item col-lg-3 col-md-3 col-sm-12 col-11">
+                    <div class="image">
+                        <img src="img/products/6.png" alt="" class="img-fluid">
+                    </div>
+                    <p class="category">Branded Cargos</p>
+                   <div class="flex-group d-flex">
+                        <p class="price">$300</p>
+                        <button class="btn btn-aditii btn-buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-aqua">
+        <div id="footer-top" class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6 info">
+                    <h3>Featured Sale</h3>
+                    <ul>
+                        <li><a href="#">Alexis Hudson</a></li>
+                        <li><a href="#">American Apparel</a></li>
+                        <li><a href="#">Ben Sheman</a></li>
+                        <li><a href="#">Big Buddha</a></li>
+                        <li><a href="#">Chanel</a></li>
+                        <li><a href="#">Christian Bale</a></li>
+                        <li><a href="#">Coach</a></li>
+                        <li><a href="#">Cole Haan</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 info">
+                    <h3>Featured Sale</h3>
+                    <ul>
+                        <li><a href="#">Alexis Hudson</a></li>
+                        <li><a href="#">American Apparel</a></li>
+                        <li><a href="#">Ben Sheman</a></li>
+                        <li><a href="#">Big Buddha</a></li>
+                        <li><a href="#">Chanel</a></li>
+                        <li><a href="#">Christian Bale</a></li>
+                        <li><a href="#">Coach</a></li>
+                        <li><a href="#">Cole Haan</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 info">
+                    <h3>Featured Sale</h3>
+                    <ul>
+                        <li><a href="#">Alexis Hudson</a></li>
+                        <li><a href="#">American Apparel</a></li>
+                        <li><a href="#">Ben Sheman</a></li>
+                        <li><a href="#">Big Buddha</a></li>
+                        <li><a href="#">Chanel</a></li>
+                        <li><a href="#">Christian Bale</a></li>
+                        <li><a href="#">Coach</a></li>
+                        <li><a href="#">Cole Haan</a></li>
+                    </ul>
+                </div> 
+                <div class="col-md-3 col-sm-6 col-6 info">
+                    <h3>Featured Sale</h3>
+                    <ul>
+                       <li><a href="#">Alexis Hudson</a></li>
+                        <li><a href="#">American Apparel</a></li>
+                        <li><a href="#">Ben Sheman</a></li>
+                        <li><a href="#">Big Buddha</a></li>
+                        <li><a href="#">Chanel</a></li>
+                        <li><a href="#">Christian Bale</a></li>
+                        <li><a href="#">Coach</a></li>
+                        <li><a href="#">Cole Haan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="copy-">Copyright © 2013 Css Hnatuk Alexander</p>
+    </footer>
+
+
+</body>
+</html>
+
